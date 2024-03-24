@@ -1,0 +1,271 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:aliceblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,p {
+    color: black;
+    padding-bottom: 30px;
+    font-family:cursive;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    margin-top:0 ;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+
+}
+img{
+    height: 200px;
+}
+
+#Ricerca{
+    height: 50px;
+    margin-left:auto;
+    cursor: pointer;
+}
+#Menu{
+    display: flex;
+    margin-left: 0;
+}
+li{
+    list-style:none;
+    margin-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    border: inset;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 10px;
+}
+#Sfondo1{
+   width:400px;
+   height:200px;
+   margin-left:580px;
+   margin-top:200px;
+}
+#Sfondo2{
+ margin-top:50px;
+ margin-bottom:-60px;
+ margin-right:800px;
+ width:350px;
+ height:auto;
+ }
+ #Sfondo3{
+    margin-right:800px;
+    margin-left:375px;
+    margin-top:-150px;
+    margin-bottom:-40px;
+    width:620px;
+    height:auto;
+}
+#Sfondo4{
+    margin-right:800px;
+    margin-left:998px;
+    margin-top:-540px;
+    margin-bottom:-20px;
+    width:400px;
+    height:auto;
+}
+#Sfondo5{
+    margin-right:800px;
+    margin-left:1380px;
+    margin-top:-650px;
+    margin-bottom:-5px;
+    width:135px;
+    height:auto;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#Logo{
+    margin-right: 40px;
+}
+div{
+    display: flex;
+
+}
+#Instagram{
+border-radius: 8px; color: red;  width:120px; height:50px; margin-left: auto;align-items: center;
+}
+#Facebook{
+border-radius: 8px; color: red;  width:120px; height:50px; margin-left:auto;align-items: center;
+
+}
+#Linkedin{
+border-radius: 8px; color: red; width: 120px; height:50px; margin-left:auto;align-items: center;
+
+}
+h5{
+    font-size: medium;
+}
+
+#class{
+    width: 25px;
+    height:30px;
+}
+#ScrittaLogo{
+    width: 350px;
+    height: 100px;
+    margin-left:10px;
+}
+#TitoloLogoSotto{
+    width: 300px;
+    height: 100px;
+    margin-top:20px;
+}
+#BoxBottom{
+    background-color:white;
+    border-radius: 200px;
+    margin-top:0px;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    margin-left:20px;
+    border:inset;
+}
+p{
+    margin-left: 300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border:inset;
+    border-radius: 10px;
+
+}
+#CliccaQuiPerScaricareApp{
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    font-size: large;
+}
+#GooglePlay{
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+}
+#IOS{
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px; 
+}
+#aereo{
+    width: 150px;
+    height:100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#ilovetravel{
+    width: 200px;
+    height: 100px;
+    margin-top:2px;
+    margin-left: 20px;
+}
+#searchInput {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    display: none;
+    margin-left: 180px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .autocomplete-results {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:122px;
+    left:1305px;
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 10px;
+    width:200px;
+    max-height: 500px;
+  }
+  .autocomplete-results div {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-results div:hover {
+    background-color: #f0f0f0;
+  }
+  .carousel{
+    position: relative;
+  }
+  .carousel-images{
+    position: absolute;
+    top:450px;
+    margin-left: 270px;
+  }
+  .image-item{
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 220px;
+    height: 220px;
+    box-shadow: 10px 10px 5px slategray;
+  }
+  .indirizzamento{
+    position: absolute;
+    top: 680px;
+    margin-left: 1130px;
+    border-radius: 10px;
+  }
+  .frasecittà{
+    position: absolute;
+    top:380px;
+    margin-left: 290px;
+  }
+  #rome{
+    background-image: url("Roma\ in\ breve.jpg");
+    background-size: cover;
+  }
+  #paris{
+    background-image: url("Parigi.jpg");
+    background-size: cover;
+  }
+  #lond{
+    background-image: url("Londra\ 1.jpg");
+    background-size: cover;
+  }
+  #new{
+    background-image: url("new\ yotk.jpg");
+    background-size: cover;
+  }
+  .parole{
+    position: absolute;
+    top:160px;
+    margin-left: 20px;
+    border: none;
+    display: none;
+    font-size: 20px;
+    background-color: slategrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px slategrey;
+    padding: 5px 10px;
+    z-index: 1;
+  }
+  .image-item:hover .parole{
+    display: block;
+  }

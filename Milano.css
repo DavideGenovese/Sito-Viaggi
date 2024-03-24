@@ -1,0 +1,181 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:aliceblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,p {
+    color: black;
+    padding-bottom: 30px;
+    font-family:cursive;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    margin-top:0 ;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+
+}
+img{
+    height: 200px;
+}
+
+#Ricerca{
+    height: 50px;
+    margin-left:auto;
+}
+#Menu{
+    display: flex;
+    margin-left: 0;
+}
+#pezzomenu{
+    list-style:none;
+    margin-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    border: inset;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 10px;
+}
+#Sfondo1{
+   width:300px;
+   height:150px;
+   margin-left:650px;
+   margin-top:150px;
+}
+#Sfondo2{
+ margin-right:800px;
+ margin-bottom: -50px;
+ width:350px;
+ height:auto;
+ }
+ #Sfondo3{
+    margin-right:800px;
+    margin-left:375px;
+    margin-top:-150px;
+    margin-bottom: -30px;
+    width:620px;
+    height:auto;
+}
+#Sfondo4{
+    margin-right:800px;
+    margin-left:998px;
+    margin-top:-540px;
+    margin-bottom: -10px;
+    width:400px;
+    height:auto;
+}
+#Sfondo5{
+    margin-right:800px;
+    margin-left:1380px;
+    margin-top:-650px;
+    margin-bottom:10px;
+    width:135px;
+    height:auto;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#Logo{
+    margin-right: 40px;
+}
+div{
+    display: flex;
+
+}
+#Instagram{
+border-radius: 8px; color: red;  width:120px; height:50px; margin-left: auto;align-items: center;
+}
+#Facebook{
+border-radius: 8px; color: red;  width:120px; height:50px; margin-left:auto;align-items: center;
+
+}
+#Linkedin{
+border-radius: 8px; color: red; width: 120px; height:50px; margin-left:auto;align-items: center;
+
+}
+h5{
+    font-size: medium;
+}
+
+#class{
+    width: 25px;
+    height:30px;
+}
+#ScrittaLogo{
+    width: 350px;
+    height: 100px;
+    margin-left:10px;
+}
+#TitoloLogoSotto{
+    width: 300px;
+    height: 100px;
+    margin-top:20px;
+}
+
+#nomiposti{
+    margin-top: 120px;
+    margin-left: -350px;
+    font-size: 30px;
+    list-style-type: square;
+    font-family: cursive;
+    border-style: groove;
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: black;
+}
+#titolo{
+    font-size: 40px;
+}
+#fotoposti{
+    width: 600px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left:-340px;
+}
+#Pass{
+    width: 250px;
+    height:150px;
+    margin-left:230px;
+    margin-top: 50px;
+    rotate: -15deg;
+    border-radius:35px;
+
+}
+#Conviene{
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 80px;
+    margin-left:35px;
+}
+#SpuntaConviene{
+    width: 30px;
+    height: 30px;
+    margin-top: 90px;
+    margin-left:15px;
+}
+#paragrafo{
+    font-size:20px;
+    font-family: cursive;
+    margin-top:250px;
+    margin-left:-450px;
+}
+#LinkPass{
+    margin-top: 360px;
+    margin-left:-450px;
+    font-size: 18px;
+}
